@@ -1,0 +1,97 @@
+:root {
+    --mainBlack: rgb(39, 38, 38);
+    --mainWhite: rgb(246, 242, 242);
+    --mainPink: rgb(221, 104, 184);
+}
+
+body {
+    background-color: var(--mainBlack);
+    color: var(--mainPink);
+    margin: 35px;
+    font-size: larger;
+}
+
+header {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header h1 {
+    font-size: 4rem;
+}
+
+header p {
+    font-size: 2rem;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 5em;
+}
+
+h2 {
+    border: 1px solid var(--mainBlack);
+    border-color: var(--mainWhite);
+    padding: 1.25rem;
+    position: relative;
+    color: var(--mainPink);
+    background-color: var(--mainBlack);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    top: -5.125rem;
+    text-align: center;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2em;
+    border: 1px dashed var(--mainWhite);
+    flex: 1 0 30%;
+    padding: 5px;
+    margin-bottom: 10rem;
+    width: 200px;
+}
+
+pre {
+    background: radial-gradient(circle, rgb(221, 104, 184) 0%, rgb(39, 38, 38) 100%);
+    padding: 1.25rem;
+    margin: 2rem;
+    /*
+    margin-left: 2rem;
+    margin-right: 2rem; */
+}
+
+.card p {
+    margin-left: 2rem;
+    margin-top: -20px;
+    font-size: 1.5rem;
+    font-size: 1.75rem;
+
+
+}
+
+.card code {
+    color: var(--mainWhite);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* header~h1~p {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+} */
