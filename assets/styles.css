@@ -20,11 +20,11 @@ header {
 }
 
 header h1 {
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 header p {
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 section {
@@ -46,7 +46,14 @@ h2 {
     margin-right: auto;
     top: -5.125rem;
     text-align: center;
+    font-size: 4rem;
 
+}
+
+h2:hover {
+    box-shadow: 0 5px 50px 0 var(--mainPink) inset, 0 5px 50px 0 var(--mainPink);
+    cursor: pointer;
+    transition: .75s;
 }
 
 .card {
@@ -74,12 +81,14 @@ pre {
     margin-top: -20px;
     font-size: 1.5rem;
     font-size: 1.75rem;
+    font-size: 3rem;
 
 
 }
 
 .card code {
     color: var(--mainWhite);
+    font-size: 3rem;
 }
 
 footer {
@@ -87,11 +96,5 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 3rem;
 }
-
-
-/* header~h1~p {
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-} */
